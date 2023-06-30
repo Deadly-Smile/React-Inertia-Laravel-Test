@@ -123,5 +123,32 @@ Follow the link the php artisan created
 https://laravel.com/docs/10.x
 https://inertiajs.com/
 ```
+****
+## Don't forget:
+### After cloning this repository reinstall all the dependency.
+First of all goto project directory
+```
+cd my-app
+```
+For *javascript* packages:
+```
+npm install
+```
+For *php* packages:
+```
+composer install
+```
+### Then, create *.env* file in same directory as *.env.example* and copy & paste all the code of *.env.example* to the newly created *.env* file.
+
+### Finally generate key by this command
+```
+php artisan key:generate
+```
+
+### Now can run the app by these command in separate terminal
+```
+npm run dev
+php artisan serve
+```
 
 ## Good luck 👋
